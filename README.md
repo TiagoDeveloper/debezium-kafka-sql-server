@@ -1,4 +1,7 @@
-# debezium-kafka-sql-server
+# Introduction 
+TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+
+
 ## Comandos básicos do docker-compose (Os comandos terão que serem executados na pasta onde se encontra o arquivo docker-compose.yml)
 - Comando para subir os containers
   ```
@@ -32,3 +35,18 @@
   ```
   docker exec -it <CONTAINER ID> bash
   ```
+## Comandos básicos do kafka
+- Visualizar as mensagens criadas pelo Debezium
+  ```
+  docker exec <CONTAINER ID DO KAFKA> /kafka/bin/kafka-console-consumer.sh \
+  --bootstrap-server <IP DO KAFKA>:9092 \
+  --from-beginning \
+  --property print.key=true \
+  --topic <NOME DO TOPICO>
+  ```
+## Ferramentas UI do kafka
+- [Ferramenta desktop para conectar ao kafka chamada _kaDeck_](https://www.getkadeck.com/#/)
+- [Ferramenta desktop para conectar ao kafka chamada _Conduktor_](https://www.conduktor.io/download/)
+## Infográfico do ambiente kafka com o plugin debezium: 
+![alt text](https://s3.amazonaws.com/imagens-hml.araujo.com.br/apresentacao_debezium_kafka.jpg "migração de dados sql server para postgresql")
+
