@@ -54,4 +54,5 @@ TODO: Give a short introduction of your project. Let this section explain the ob
 
 ## FONTES
 - https://www.infoq.com/br/articles/apache-kafka-ksqldb/
+- https://debezium.io/documentation/reference/connectors/sqlserver.html#sqlserver-connector-properties
 
