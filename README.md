@@ -50,3 +50,8 @@ TODO: Give a short introduction of your project. Let this section explain the ob
 ## Infográfico do ambiente kafka com o plugin debezium: 
 ![alt text](https://s3.amazonaws.com/imagens-hml.araujo.com.br/apresentacao_debezium_kafka.jpg "migração de dados sql server para postgresql")
 
+
+
+## FONTES
+- https://www.infoq.com/br/articles/apache-kafka-ksqldb/
+
