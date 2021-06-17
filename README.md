@@ -57,3 +57,4 @@ TODO: Give a short introduction of your project. Let this section explain the ob
 - https://debezium.io/documentation/reference/connectors/sqlserver.html#sqlserver-connector-properties
 - https://debezium.io/blog/2017/09/25/streaming-to-another-database/
 - https://docs.spring.io/spring-cloud-stream-app-starters/docs/current/reference/htmlsingle/#_sql_server
+- https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/main/src/docker-compose/docker-compose.yml
